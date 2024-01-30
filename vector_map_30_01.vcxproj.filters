@@ -4,10 +4,30 @@
     <Filter Include="main">
       <UniqueIdentifier>{27fb22f3-fa83-4cfd-878a-35f87fea5ca8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="trainstation">
+      <UniqueIdentifier>{c483da08-ad2b-42f3-af86-1206cff73480}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="train">
+      <UniqueIdentifier>{e9ace3fc-c7a4-4411-a0dc-3e2cb57622e5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>main</Filter>
     </ClCompile>
+    <ClCompile Include="trainstation.cpp">
+      <Filter>trainstation</Filter>
+    </ClCompile>
+    <ClCompile Include="train.cpp">
+      <Filter>train</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="trainstation.h">
+      <Filter>trainstation</Filter>
+    </ClInclude>
+    <ClInclude Include="train.h">
+      <Filter>train</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
